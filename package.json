@@ -1,0 +1,21 @@
+{
+  "name": "movieQL",
+  "version": "1.0.0",
+  "description": "Movie API with GraphQL",
+  "main": "index.js",
+  "repository": "https://github.com/DebLeong/movieQL",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "graphql-yoga": "^1.14.12",
+    "node-fetch": "^2.1.2"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}
